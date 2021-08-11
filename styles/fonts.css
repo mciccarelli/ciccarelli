@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/static/fonts/IBMPlexMono-Italic.woff2') format('woff2'),
+    url('/static/fonts/IBMPlexMono-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/static/fonts/IBMPlexMono-Regular.woff2') format('woff2'),
+    url('/static/fonts/IBMPlexMono-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/static/fonts/IBMPlexMono-Medium.woff2') format('woff2'),
+    url('/static/fonts/IBMPlexMono-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/static/fonts/IBMPlexMono-MediumItalic.woff2') format('woff2'),
+    url('/static/fonts/IBMPlexMono-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/static/fonts/MaisonNeue-Light.woff2') format('woff2'),
+    url('/static/fonts/MaisonNeue-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/static/fonts/MaisonNeue-LightItalic.woff2') format('woff2'),
+    url('/static/fonts/MaisonNeue-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/static/fonts/MaisonNeue-Book.woff2') format('woff2'),
+    url('/static/fonts/MaisonNeue-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/static/fonts/MaisonNeue-BookItalic.woff2') format('woff2'),
+    url('/static/fonts/MaisonNeue-BookItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/static/fonts/MaisonNeue-Medium.woff2') format('woff2'),
+    url('/static/fonts/MaisonNeue-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/static/fonts/MaisonNeue-MediumItalic.woff2') format('woff2'),
+    url('/static/fonts/MaisonNeue-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/static/fonts/MaisonNeue-Bold.woff2') format('woff2'),
+    url('/static/fonts/MaisonNeue-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/static/fonts/MaisonNeue-BoldItalic.woff2') format('woff2'),
+    url('/static/fonts/MaisonNeue-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MaisonNeueMono';
+  src: url('/static/fonts/MaisonNeueMono.woff2') format('woff2'),
+    url('/static/fonts/MaisonNeueMono.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}

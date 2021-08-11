@@ -1,10 +1,47 @@
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-article a {
-    color: rgb(49, 49, 182);
-    text-decoration: underline;
+@import './fonts.css';
+body {
+  @apply font-mono leading-normal text-gray-900 bg-gray-50;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-body font-medium leading-tight;
+}
+
+p,
+li,
+ol {
+  @apply text-sm leading-normal mb-7;
+}
+
+li,
+ol {
+  @apply pl-4 relative mb-0;
+}
+
+li:not(.no-icon):before {
+  @apply block left-0 absolute;
+  content: '↳';
+}
+
+li a,
+ol a {
+  @apply uppercase font-mono text-sm text-black;
+}
+
+a {
+  @apply text-sm font-mono text-black hover:text-white hover:bg-black mb-7;
+}
+
+::selection {
+  @apply text-white bg-black;
 }
 /* purgecss end ignore */
 @tailwind utilities;
-

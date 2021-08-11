@@ -1,15 +1,13 @@
-import Alert from '../components/alert'
-import Footer from '../components/footer'
-import Meta from '../components/meta'
+import { Meta, Sidebar } from '../components'
 
-export default function Layout({ preview, children }) {
+export default function Layout({ preview, children, projects }) {
   return (
     <>
       <Meta />
-      <div className="min-h-screen">
+      <div className="layout min-h-screen">
+        <Sidebar projects={projects} />
         <main>{children}</main>
       </div>
-      <Footer />
     </>
   )
 }
