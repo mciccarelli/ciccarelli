@@ -1,0 +1,16 @@
+.root {
+  @apply md:w-72 p-4;
+}
+
+.root h1 {
+  @apply font-body font-medium text-sm uppercase mb-7;
+}
+
+.root li a:after {
+  @apply opacity-0;
+  content: attr(data-tooltip);
+}
+
+.root li a:hover:after {
+  @apply opacity-100;
+}

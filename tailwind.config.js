@@ -1,5 +1,11 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   theme: {
+    fontFamily: {
+      body: ['Maison Neue', ...defaultTheme.fontFamily.sans],
+      mono: ['IBM Plex Mono', ...defaultTheme.fontFamily.mono],
+    },
     extend: {
       colors: {
         'accent-1': '#FAFAFA',
@@ -18,6 +24,9 @@ module.exports = {
         tight: 1.2,
       },
       fontSize: {
+        xs: '.625rem',
+        sm: '.6875rem',
+        base: '.75rem',
         '5xl': '2.5rem',
         '6xl': '2.75rem',
         '7xl': '4.5rem',
@@ -28,5 +37,5 @@ module.exports = {
         medium: '0 8px 30px rgba(0, 0, 0, 0.12)',
       },
     },
-  }
-}
+  },
+};

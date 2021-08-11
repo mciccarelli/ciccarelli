@@ -2,17 +2,42 @@
   @apply text-lg leading-relaxed;
 }
 
+.markdown > *:not(figure) {
+  @apply max-w-2xl mx-auto px-4 mb-10 md:mb-16;
+}
+
 .markdown p,
 .markdown ul,
 .markdown ol,
-.markdown blockquote {
-  @apply my-6;
+.markdown blockquote,
+.markdown figure {
+  @apply mb-10 md:mb-16;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5 {
+  @apply leading-snug mb-4;
+}
+
+.markdown h1 {
+  @apply text-6xl;
 }
 
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+  @apply text-3xl;
 }
 
 .markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+  @apply text-2xl;
+}
+
+.markdown h4 {
+  @apply text-xl;
+}
+
+.markdown h5 {
+  @apply text-lg;
 }
