@@ -30,9 +30,6 @@ export default function Intro({ projects }) {
           <li className="no-icon">
             <a href="mailto:m@ciccarel.li?subject=Hello">m@ciccarel.li</a>
           </li>
-          <li className="no-icon">
-            <a href="tel:19177833277">+1 917 7833277</a>
-          </li>
           {SOCIAL_LINKS.map(({ href, handle, title }, idx) => (
             <li key={`social-link-${idx}`}>
               <a href={href} title={title} data-tooltip={handle}>
