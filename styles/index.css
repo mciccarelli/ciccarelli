@@ -1,7 +1,9 @@
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-@import './fonts.css';
+/* @import './fonts.css'; */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
 body {
   @apply font-mono leading-normal text-gray-900 bg-gray-50;
 }
@@ -28,7 +30,7 @@ ol {
 
 li:not(.no-icon):before {
   @apply block left-0 absolute;
-  content: '↳';
+  content: "↳";
 }
 
 li a,
